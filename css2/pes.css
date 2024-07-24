@@ -1,0 +1,23 @@
+.task4{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+.task.hover{
+    width: 100px;
+
+}
+a.active{
+    color: brown;
+}
+a.visited{
+    color: aqua;
+
+}
+.class>div:first-child{
+    background-color: brown;
+}
+
+
+
+    

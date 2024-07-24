@@ -1,0 +1,58 @@
+.task{
+    width:100%;
+    height: 100%;
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 100px 100px 100px;
+    grid-gap:10px;
+    
+    grid-template-areas:
+    "task1 task2 task2 task3"
+    "task1 task4 task5 task6"
+    "task1 task7 task9 task6"
+    ;
+
+
+}
+    
+.task1{
+    
+     background-color: green;
+     grid-area:task1;
+}
+.task2{
+    
+   background-color: green;
+   grid-area:task2 ;
+}
+.task3{
+    
+background-color: rgb(216, 12, 12);
+grid-area: task3;
+}
+.task4{
+background-color: rgb(204, 156, 25);
+grid-area: task4;
+}
+.task5{
+    background-color:rgb(216, 12, 12);
+    grid-area: task5;
+
+}
+.task6{
+    background-color: green;
+    grid-area: task6;
+    }
+    .task7{
+        background-color: rgb(216, 12, 12);
+        grid-area: task7;
+        }
+        .task8{
+            background-color:rgb(204, 156, 25);
+            grid-area:task8 ;
+        }
+        .task9{
+            background-color:rgb(204, 156, 25);
+            grid-area: task9;
+        }
